@@ -15,6 +15,6 @@ public class PromoCategory {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String nombre;
-    private String productSK;
+    private String productSK; //openfeign connection
     private String category;
 }
